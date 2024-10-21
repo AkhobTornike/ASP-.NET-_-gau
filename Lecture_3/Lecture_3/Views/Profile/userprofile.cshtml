@@ -1,0 +1,46 @@
+﻿@model Lecture_3.Models.User
+
+@{
+    ViewBag.Title = "userprofile";
+}
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <h2>User Profile</h2>
+
+            <div class="card mb-3">
+                <div class="card-header">
+                    User Information
+                </div>
+                <div class="card-body">
+                    <dl class="row">
+                        <dt class="col-sm-3">
+                            @Html.DisplayNameFor(model => model.Name)
+                        </dt>
+                        <dd class="col-sm-9">
+                            @Html.DisplayFor(model => model.Name)
+                        </dd>
+                        <dt class="col-sm-3">
+                            @Html.DisplayNameFor(model => model.Email)
+                        </dt>
+                        <dd class="col-sm-9">
+                            @Html.DisplayFor(model => model.Email)
+                        </dd>
+                        <dt class="col-sm-3">
+                            @Html.DisplayNameFor(model => model.Password)
+                        </dt>
+                        <dd class="col-sm-9">
+                            <span class="text-muted">Password hidden for security reasons.</span>
+                        </dd>
+                    </dl>
+                </div>
+            </div>
+
+            <p class="text-center">
+                @Html.ActionLink("Edit", "Edit", new { id = Model.Id }, new { @class = "btn btn-primary mr-2" })
+                @Html.ActionLink("Back To Home", "Index", "Home", new { area = "" }, new { @class = "btn btn-secondary" })
+            </p>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,15 @@
+C:\Users\Toko\source\repos\asp_net\SingletoneDemo\SingletoneDemo\bin\Debug\net8.0\SingletoneDemo.exe
+C:\Users\Toko\source\repos\asp_net\SingletoneDemo\SingletoneDemo\bin\Debug\net8.0\SingletoneDemo.deps.json
+C:\Users\Toko\source\repos\asp_net\SingletoneDemo\SingletoneDemo\bin\Debug\net8.0\SingletoneDemo.runtimeconfig.json
+C:\Users\Toko\source\repos\asp_net\SingletoneDemo\SingletoneDemo\bin\Debug\net8.0\SingletoneDemo.dll
+C:\Users\Toko\source\repos\asp_net\SingletoneDemo\SingletoneDemo\bin\Debug\net8.0\SingletoneDemo.pdb
+C:\Users\Toko\source\repos\asp_net\SingletoneDemo\SingletoneDemo\obj\Debug\net8.0\SingletoneDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Toko\source\repos\asp_net\SingletoneDemo\SingletoneDemo\obj\Debug\net8.0\SingletoneDemo.AssemblyInfoInputs.cache
+C:\Users\Toko\source\repos\asp_net\SingletoneDemo\SingletoneDemo\obj\Debug\net8.0\SingletoneDemo.AssemblyInfo.cs
+C:\Users\Toko\source\repos\asp_net\SingletoneDemo\SingletoneDemo\obj\Debug\net8.0\SingletoneDemo.csproj.CoreCompileInputs.cache
+C:\Users\Toko\source\repos\asp_net\SingletoneDemo\SingletoneDemo\obj\Debug\net8.0\SingletoneDemo.sourcelink.json
+C:\Users\Toko\source\repos\asp_net\SingletoneDemo\SingletoneDemo\obj\Debug\net8.0\SingletoneDemo.dll
+C:\Users\Toko\source\repos\asp_net\SingletoneDemo\SingletoneDemo\obj\Debug\net8.0\refint\SingletoneDemo.dll
+C:\Users\Toko\source\repos\asp_net\SingletoneDemo\SingletoneDemo\obj\Debug\net8.0\SingletoneDemo.pdb
+C:\Users\Toko\source\repos\asp_net\SingletoneDemo\SingletoneDemo\obj\Debug\net8.0\SingletoneDemo.genruntimeconfig.cache
+C:\Users\Toko\source\repos\asp_net\SingletoneDemo\SingletoneDemo\obj\Debug\net8.0\ref\SingletoneDemo.dll

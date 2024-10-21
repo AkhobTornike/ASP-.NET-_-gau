@@ -1,0 +1,42 @@
+﻿@model IEnumerable<Lecture_3.Models.Ingredient>
+
+@{
+    ViewBag.Title = "Recipe List";
+}
+
+<h2 class="my-4">Recipe List</h2>
+<hr />
+<div class="container">
+    <div class="row">
+        @foreach (var item in Model)
+        {
+            <div class="col-md-8 mb-4 m-auto">
+                <div class="card h-100">
+                    <img src="@item.Image" class="card-img-top" alt="Recipe Image">
+                    <div class="card-body">
+                        <h5 class="card-title">@item.Name </h5>
+                        <p class="card-text btn"><strong>Ingredients:</strong> @item.Ingredients</p>
+                        <p class="card-text">@item.Description</p>
+                        <div class="d-flex justify-content-between">
+                            <div>
+                                <input type="checkbox" id="like-@item.Id">
+                                <label for="like-@item.Id">Like Recipe</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="bookmark-@item.Id">
+                                <label for="bookmark-@item.Id">Bookmark Recipe</label>
+                            </div>
+                            <div>
+                                <button>
+
+                                    @Html.ActionLink("See More", "IngredientDetail", "Ingredients", new { id = item.Id }, new { @class = "nav-link fs-4" })
+                                </button>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>

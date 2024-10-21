@@ -1,0 +1,22 @@
+﻿@model Lecture_3.Models.Ingredient
+
+@{
+    ViewBag.Title = "Recipe Details";
+}
+
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-md-6 mx-auto">
+            <div class="card mb-4">
+                <img src="@Url.Content(Model.Image)" class="card-img-top" alt="Recipe Image">
+                <div class="card-body">
+                    <h5 class="card-title">Making Process:</h5>
+                    <hr />
+                    <p class="mb-2"><strong>Ingredients:</strong> @Model.Ingredients</p>
+                    <p class="mb-2"><strong>Description:</strong> @Model.Description</p>
+                    <p class="mb-2"><strong>Video Link:</strong> <a href="@Model.VideoLink" target="_blank">@Model.VideoLink</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

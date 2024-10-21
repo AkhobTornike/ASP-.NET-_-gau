@@ -1,0 +1,81 @@
+﻿.custom-link-color {
+    color: #efc81a;
+    text-decoration: none;
+}
+
+    .custom-link-color:hover {
+        color: #d4a017;
+        text-decoration: underline;
+    }
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    margin-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+footer {
+    width: 100%;
+}
+
+.recipe-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.recipe-item {
+    display: flex;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    align-items: center;
+}
+
+    .recipe-item img {
+        width: 150px;
+        height: 150px;
+        border-radius: 8px;
+        object-fit: cover;
+        margin-right: 20px;
+    }
+
+.recipe-info {
+    flex: 1;
+}
+
+    .recipe-info h3 {
+        margin: 0;
+        font-size: 1.5em;
+    }
+
+    .recipe-info p {
+        margin: 0.5em 0;
+        color: #666;
+    }
+
+.like-bookmark {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+    .like-bookmark label {
+        cursor: pointer;
+    }
